@@ -1,0 +1,33 @@
+//final - variable , method,class
+
+final class Calc
+{
+   final public void show()
+   {
+      System.out.println("in Calc show");
+   }
+   public void add(int a,int b)
+   {
+     System.out.println(a+b);
+   }
+}
+class AdvCalc 
+{
+
+}
+public class demo1
+{
+   public static void main(String[] args) {
+      /*final int num=8;
+      System.out.println(num);*/
+      Calc obj= new Calc();
+      obj.show();
+      obj.add(5,5);
+   }
+}
+
+
+
+// final variable - no one can change the value of it 
+// final class - no can extend your class and cannot use your class features//
+//final method - no one can override your method when someone ectends it
