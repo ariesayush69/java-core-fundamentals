@@ -8,6 +8,11 @@ public class enum_use
         int i=5;
         Status s = Status.Running;
         System.out.println(s);
+        System.out.println(s.ordinal());
+        Status[] ss = Status.values();
+        for (Status sss : ss)
+        {
+        System.out.println(sss+" : "+sss.ordinal());
     }
-
+  }
 }
